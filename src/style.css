@@ -1,0 +1,41 @@
+body{
+    background: #336699;
+    width: 91%;
+    height: 300px;
+}
+
+.container{
+    margin: 20% auto;
+    text-align: center;
+    font-size: 0;
+}
+
+kbd{
+    font-size: 15px;
+    font-weight: 900;
+    display: inline-block;
+    border: 3px solid black;
+}
+
+.white-keys kbd{
+    padding: 150px 35px 10px 35px;
+    background: white;
+}
+
+.black-keys kbd{
+    padding: 75px 15px 10px 15px;
+    background: black;
+    color: white;
+    margin-left: 22px;
+    margin-right: 21px;
+    position: relative;
+    bottom: 182px;
+}
+
+.keyW, .keyE{
+    left: -40px;
+}
+
+.keyT, .keyY, .keyU{
+    right: -40px;
+}
